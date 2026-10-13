@@ -1,0 +1,1 @@
+"""Bootstrap layer: process entry, CLI parsing, GUI shell wiring."""
