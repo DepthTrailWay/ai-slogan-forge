@@ -1,0 +1,1 @@
+"""Core engine: prompt construction, generation loop, ranking."""
