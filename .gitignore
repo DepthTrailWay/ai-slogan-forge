@@ -1,0 +1,46 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Local model weights (large, do not commit)
+models/*.gguf
+models/*.bin
+models/cache/
+
+# Runtime artifacts
+.sloganforge/
+logs/
+*.log
+out/
+exports/
+
+# Secrets
+.env
+.env.local
+secrets.toml
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
